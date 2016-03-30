@@ -2,7 +2,7 @@
 
 public class Client {
 	
-	private int id;
+	private int name;
 	private int address;
 	
 	public Client(int address){
@@ -10,11 +10,11 @@ public class Client {
 	}
 	
 	public int getId() {
-		return id;
+		return name;
 	}
 
 	public void setId(int id) {
-		this.id = id;
+		this.name = id;
 	}
 	
 	public int getAddress() {
